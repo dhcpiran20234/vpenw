@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # 设置各变量
-UUID='4225e52c-1f89-4d45-a4fb-4a8fee80e085'
-VMESS_WSPATH='/vmess'
+UUID='c3b1e5e8-6858-41d1-abf1-0f134116114e'
+VMESS_WSPATH='/chasim'
 VLESS_WSPATH='/vless'
 TROJAN_WSPATH='/trojan'
 SS_WSPATH='/shadowsocks'
@@ -224,6 +224,7 @@ generate_config() {
     "dns": {
         "server": [
             "8.8.8.8",
+            "9.9.9.9",
             "8.8.4.4"
         ]
     }
